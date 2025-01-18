@@ -6,7 +6,7 @@ interface MainPageProps {
   onLogout: () => void;
 }
 
-const MainPage: React.FC<MainPageProps> = ({ token, onLogout }) => {
+const MainPage: React.FC<MainPageProps> = ({ onLogout }) => {
   return (
     <div className="h-screen flex flex-col">
       <Header />
