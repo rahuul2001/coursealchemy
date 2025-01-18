@@ -10,7 +10,7 @@ const CourseDetails: React.FC = () => {
   useEffect(() => {
     const fetchCourseDetails = async () => {
       try {
-        const response = await fetch(`http://localhost:5001/api/courses/course/${courseId}`, {
+        const response = await fetch(`https://coursealchemy-backend.onrender.com/api/courses/course/${courseId}`, {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
           },

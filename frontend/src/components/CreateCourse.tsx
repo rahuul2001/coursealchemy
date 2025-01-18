@@ -30,7 +30,7 @@ function CreateCourse() {
 
     try {
       const response = await fetch(
-        "http://localhost:5001/api/courses/generate",
+        "https://coursealchemy-backend.onrender.com/api/courses/generate",
         {
           method: "POST",
           headers: {
@@ -73,7 +73,7 @@ function CreateCourse() {
 
   const handleSave = async () => {
     try {
-      const response = await fetch("http://localhost:5001/api/courses/save", {
+      const response = await fetch("https://coursealchemy-backend.onrender.com/api/courses/save", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

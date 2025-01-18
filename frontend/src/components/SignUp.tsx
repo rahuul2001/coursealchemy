@@ -46,7 +46,7 @@ const SignUp: React.FC<SignUpProps> = ({ onSignUp }) => {
     if (!validate()) return;
   
     try {
-      const response = await axios.post("http://localhost:5001/api/auth/signup", {
+      const response = await axios.post("https://coursealchemy-backend.onrender.com/api/auth/signup", {
         username,
         email,
         password,

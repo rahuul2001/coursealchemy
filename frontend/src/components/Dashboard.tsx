@@ -8,7 +8,7 @@ const Dashboard: React.FC = () => {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const response = await fetch("http://localhost:5001/api/courses/allcourses", {
+        const response = await fetch("https://coursealchemy-backend.onrender.com/api/courses/allcourses", {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
           },

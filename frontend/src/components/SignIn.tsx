@@ -40,7 +40,7 @@ const SignIn: React.FC<SignInProps> = ({ onSignIn }) => {
     if (!validate()) return;
   
     try {
-      const response = await axios.post("http://localhost:5001/api/auth/signin", {
+      const response = await axios.post("https://coursealchemy-backend.onrender.com/api/auth/signin", {
         email,
         password,
       });
