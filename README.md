@@ -18,11 +18,11 @@
    npm run dev
    ```
 
-4. Navigate to the backend folder and create a `.env` file. Paste the contents provided in the email sent to `dror@context-learn.com`.
+4. Navigate to the 'coursealchemy/backend' folder and create a `.env` file. Paste the contents provided in the email sent to `dror@context-learn.com`.
 
 5. Install necessary backend packages:
    ```bash
-   cd ../backend
+   cd coursealchemy/backend
    npm install
    ```
 
