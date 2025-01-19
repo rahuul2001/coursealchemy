@@ -4,7 +4,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rahul2001/coursealchemy.git
+   git clone https://github.com/rahuul2001/coursealchemy.git
    ```
 
 2. Navigate to the frontend folder and install necessary packages:
